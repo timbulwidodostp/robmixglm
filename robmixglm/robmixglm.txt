@@ -10,8 +10,10 @@ library("MASS")
 robmixglm = read.csv("https://raw.githubusercontent.com/timbulwidodostp/robmixglm/main/robmixglm/robmixglm.csv",sep = ";")
 # Estimation # Fits a Robust Generalized Linear Model and Variants Use robmixglm With (In) R Software
 # Robust Generalized Linear Models (GLM) using Mixtures Use robmixglm With (In) R Software
-robmixglm <- robmixglm(100*log10(pres)~bp, data = robmixglm, cores = 1)
-summary(robmixglm)
+robmixglm_1 <- robmixglm(Dependen~Independen_1 + Independen_2, data = robmixglm)
+summary(robmixglm_1)
+robmixglm_2 <- robmixglm(Dependen~Independen_1 + Independen_2, data = robmixglm, cores = 1)
+summary(robmixglm_2)
 # Fits a Robust Generalized Linear Model and Variants Use robmixglm With (In) R Software
 # Robust Generalized Linear Models (GLM) using Mixtures Use robmixglm With (In) R Software
 # Olah Data Semarang
