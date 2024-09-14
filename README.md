@@ -3,6 +3,8 @@ Fits a Robust Generalized Linear Model and Variants Use robmixglm With (In) R So
 
 Robust Generalized Linear Models (GLM) using Mixtures Use robmixglm With (In) R Software
 
+https://www.youtube.com/watch?v=TdeM2KtBnTE
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
